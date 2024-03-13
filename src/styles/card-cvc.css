@@ -1,0 +1,21 @@
+.card-cvc {
+  width: 300px;
+  height: 180px;
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  background-image: url("../assets/images/bg-card-back.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: var(--white);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 20px;
+}
+.numbers-cvc .numbers {
+  font-size: 15px;
+  margin-right: 40px;
+}
